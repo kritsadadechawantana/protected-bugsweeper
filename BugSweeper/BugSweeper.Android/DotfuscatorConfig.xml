@@ -82,9 +82,4 @@
       </propertylist>
     </extattribute>
   </extattributes>
-  <smartobfuscation>
-    <smartobfuscationreport verbosity="all" overwrite="true">
-      <file dir="${configdir}\${ReportDir}" name="SmartObfuscation.xml" />
-    </smartobfuscationreport>
-  </smartobfuscation>
 </dotfuscator>
