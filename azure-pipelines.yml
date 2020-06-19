@@ -35,10 +35,6 @@ steps:
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
 
-- task: ProtectWithDotfuscatorCE@1
-  inputs:
-    configFile: 'BugSweeper\BugSweeper.Android\DotfuscatorConfig.xml'
-
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'debug.keystore'
